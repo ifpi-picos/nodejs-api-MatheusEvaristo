@@ -21,9 +21,6 @@ router.post('/', async (req, res) => {
 module.exports = router;
 
 //get postagem por ID
-router.get("/:id", async (req, res) => {
-
-})
 //update postagem por ID
 router.put("/:id", async (req, res) => {
   const id = req.params.id;
