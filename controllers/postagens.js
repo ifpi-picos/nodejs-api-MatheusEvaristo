@@ -6,7 +6,7 @@ class Postagens {
     const postagens = await PostagemModel.find({});
     return postagens;
   }
-  async getId () { 
+  async getId (id) { 
     const postagem = await PostagemModel.find({_id: id});
     return postagem;
   }
