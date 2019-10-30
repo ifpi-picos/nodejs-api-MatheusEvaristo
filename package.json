@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/ifpi-picos/nodejs-api-MatheusEvaristo/issues"
   },
-  "homepage": "https://github.com/ifpi-picos/nodejs-api-MatheusEvaristo#readme"
+  "homepage": "https://github.com/ifpi-picos/nodejs-api-MatheusEvaristo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
